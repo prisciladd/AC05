@@ -16,6 +16,7 @@ CMD ["python","app.py"]
 #docker image ls
 #docker run -d -p 9001:9001 --rm --name web-container web-image
 #docker ps
+#docker run -d -p 9001:9001 --link mysql-container --rm --name web-container web-image
 
 #COMENTÁRIOS
 #-t significa tag nome da imagem
